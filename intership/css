@@ -1,0 +1,37 @@
+style.css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'popping;sans-serif';
+}
+.nav{
+    width;100;
+    heigth:80px;
+    background-color:
+    display:flex;
+    justify-content:space between;
+    align-items;centre;
+}
+nav a{
+    color:
+    text-decoration:none;
+    display:felx;
+    justify-content:space between;
+    align-items:centre;
+}
+.navgation span{
+    color: rgb(195, 36, 168)
+}
+nav ul{
+    padding:10 px;
+    dispaly:flex;
+    justify:content:space-between;
+    align-content:centre;
+    list-style;name;
+}
+navigation li{
+    margin;020px;
+}
+navigation a:hover 
+

@@ -1,0 +1,54 @@
+about.css
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+.navigation {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(69, 185, 181);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation span{
+    color: #fff;
+    font-size: large;
+    text-decoration:solid;
+}
+.navigation ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;.................
+    align-content: center;
+    list-style: none;
+}
+.navigation li{
+    margin: 0 20px;
+}
+navigation a:hover{
+    padding : 0px;
+   font-size: 25px;
+    color: rgb(7, 7, 7);
+}
+@media (max-width:768px){
+    .navigation{
+        position: relative;
+    }
+ .navigation a{
+    position: absolute;
+}
+.navigation a{
+   position: absolute;
+   display: table-column;
+}
+}
